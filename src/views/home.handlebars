@@ -1,0 +1,19 @@
+<div id="contenido">
+    {{#each product}}
+    <div class="card" style="width: 18rem;">
+        {{!-- <img src="..." class="card-img-top" alt="..."> --}}
+        <div class="card-body">
+            <h5 class="card-title">{{title}}</h5>
+            <h6>U$D: {{price}}</h6>
+            <p class="card-text">{{description}}</p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Stock: {{stock}}</li>
+            <li class="list-group-item">Category: {{category}}</li>
+            <li class="list-group-item">ID : {{id}} - Code: {{code}}</li>
+            <li class="list-group-item">Status: {{status}}</li>
+            <li class="list-group-item">{{thumbnail}}</li>
+        </ul>
+    </div>
+    {{/each}}
+</div>

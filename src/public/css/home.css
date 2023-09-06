@@ -1,0 +1,12 @@
+.row {
+    width: 100%;
+    
+}
+.card{
+    margin: 20px;
+}
+#contenido{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
